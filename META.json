@@ -1,0 +1,124 @@
+{
+   "abstract" : "Command-line I/O",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Clio",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "AnyEvent::Run" : 0,
+            "Config::Any" : 0,
+            "Data::UUID" : 0,
+            "Log::Dispatch" : 0,
+            "Log::Log4perl" : 0,
+            "Moo" : 0,
+            "Plack" : 0,
+            "Twiggy" : 0
+         }
+      }
+   },
+   "provides" : {
+      "Clio" : {
+         "file" : "lib/Clio.pm",
+         "version" : 0
+      },
+      "Clio::Client" : {
+         "file" : "lib/Clio/Client.pm",
+         "version" : 0
+      },
+      "Clio::ClientOutputFilter::LineEnd" : {
+         "file" : "lib/Clio/ClientOutputFilter/LineEnd.pm",
+         "version" : 0
+      },
+      "Clio::ClientOutputFilter::jQueryStream" : {
+         "file" : "lib/Clio/ClientOutputFilter/jQueryStream.pm",
+         "version" : 0
+      },
+      "Clio::Config" : {
+         "file" : "lib/Clio/Config.pm",
+         "version" : 0
+      },
+      "Clio::Log" : {
+         "file" : "lib/Clio/Log.pm",
+         "version" : 0
+      },
+      "Clio::Log::Log4perl" : {
+         "file" : "lib/Clio/Log/Log4perl.pm",
+         "version" : 0
+      },
+      "Clio::Process" : {
+         "file" : "lib/Clio/Process.pm",
+         "version" : 0
+      },
+      "Clio::ProcessInputFilter::LineEnd" : {
+         "file" : "lib/Clio/ProcessInputFilter/LineEnd.pm",
+         "version" : 0
+      },
+      "Clio::ProcessManager" : {
+         "file" : "lib/Clio/ProcessManager.pm",
+         "version" : 0
+      },
+      "Clio::Role::HasContext" : {
+         "file" : "lib/Clio/Role/HasContext.pm",
+         "version" : 0
+      },
+      "Clio::Role::HasManager" : {
+         "file" : "lib/Clio/Role/HasManager.pm",
+         "version" : 0
+      },
+      "Clio::Role::UUIDMaker" : {
+         "file" : "lib/Clio/Role/UUIDMaker.pm",
+         "version" : 0
+      },
+      "Clio::Server" : {
+         "file" : "lib/Clio/Server.pm",
+         "version" : 0
+      },
+      "Clio::Server::ClientsManager" : {
+         "file" : "lib/Clio/Server/ClientsManager.pm",
+         "version" : 0
+      },
+      "Clio::Server::HTTP" : {
+         "file" : "lib/Clio/Server/HTTP.pm",
+         "version" : 0
+      },
+      "Clio::Server::HTTP::Client::Stream" : {
+         "file" : "lib/Clio/Server/HTTP/Client/Stream.pm",
+         "version" : 0
+      },
+      "Clio::Server::HTTP::Client::WebSocket" : {
+         "file" : "lib/Clio/Server/HTTP/Client/WebSocket.pm",
+         "version" : 0
+      },
+      "Clio::Server::Socket" : {
+         "file" : "lib/Clio/Server/Socket.pm",
+         "version" : 0
+      },
+      "Clio::Server::Socket::Client::Handle" : {
+         "file" : "lib/Clio/Server/Socket/Client/Handle.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0"
+}
